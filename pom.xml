@@ -68,6 +68,12 @@
         <plugin>
           <artifactId>maven-jxr-plugin</artifactId>
           <version>2.3</version>
+	  <configuration>
+		<compilerArguments>
+		  <Xmaxerrs>1000</Xmaxerrs>
+		  <Averbose>true</Averbose>
+		</compilerArguments>
+	  </configuration>
         </plugin>
 
         <plugin>
